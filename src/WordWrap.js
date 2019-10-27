@@ -4,11 +4,8 @@
 module.exports = class WordWrap {
     constructor() {}
 
-    transform(string, screenWidth, cut = true) {
-        const wrap = (s, w) => s.replace(
-            new RegExp(`(?![^\\n]{1,${w}}$)([^\\n]{1,${w}})\\s`, 'g'), '$1\n'
-        );
-
-        return wrap(string, screenWidth);
+    transform(string, screenWidth) {
+        const regExp = new RegExp(`(?![^\\n]{1,${screenWidth}}$)([^\\n]{1,${screenWidth}})\\s`, 'g');
+        return string.replace(regExp, '$1\n');
     }
 };
