@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0343e134-ed12-4792-97ff-6e297518917b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/TDDKatas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/_mocha" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/he" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/mkdirp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/mocha" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/assertion-error/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/assertion-error/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/assertion-error/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/assertion-error/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/assertion-error/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/balanced-match/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/balanced-match/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/balanced-match/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/balanced-match/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/balanced-match/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/brace-expansion/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/brace-expansion/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/brace-expansion/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/brace-expansion/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/browser-stdout/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/browser-stdout/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/browser-stdout/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/browser-stdout/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/CODEOWNERS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/ReleaseNotes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/chai.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/karma.sauce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/assertion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/core/assertions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/interface/assert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/interface/expect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/interface/should.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/addChainableMethod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/addLengthGuard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/addMethod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/addProperty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/compareByInspect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/expectTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/flag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/getActual.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/getEnumerableProperties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/getMessage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/getOwnEnumerableProperties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/getOwnEnumerablePropertySymbols.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/getProperties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/inspect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/isNaN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/isProxyEnabled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/objDisplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/overwriteChainableMethod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/overwriteMethod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/overwriteProperty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/proxify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/transferFlags.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/register-assert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/register-expect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/register-should.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chai/sauce.browsers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/check-error/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/check-error/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/check-error/check-error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/check-error/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/check-error/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/commander/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/commander/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/commander/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/commander/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/commander/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/commander/typings/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/concat-map/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/concat-map/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/concat-map/README.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/concat-map/example/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/concat-map/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/concat-map/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/concat-map/test/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/debug/.coveralls.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/debug/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/debug/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/debug/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/debug/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/debug/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/debug/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/debug/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/debug/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/debug/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/debug/src/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/debug/src/debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/debug/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/debug/src/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/deep-eql/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/deep-eql/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/deep-eql/deep-eql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/deep-eql/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/deep-eql/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/dist/diff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/dist/diff.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/lib/convert/dmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/lib/convert/xml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/lib/diff/array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/lib/diff/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/lib/diff/character.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/lib/diff/css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/lib/diff/json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/lib/diff/line.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/lib/diff/sentence.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/lib/diff/word.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/lib/patch/apply.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/lib/patch/create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/lib/patch/merge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/lib/patch/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/lib/util/array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/lib/util/distance-iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/lib/util/params.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/release-notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/diff/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/escape-string-regexp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/escape-string-regexp/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/escape-string-regexp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/escape-string-regexp/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fs.realpath/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fs.realpath/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fs.realpath/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fs.realpath/old.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fs.realpath/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/get-func-name/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/get-func-name/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/get-func-name/get-func-name.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/get-func-name/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/get-func-name/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/glob/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/glob/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/glob/changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/glob/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/glob/glob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/glob/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/glob/sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/growl/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/growl/.tags" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/growl/.tags1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/growl/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/growl/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/growl/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/growl/lib/growl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/growl/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/growl/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/has-flag/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/has-flag/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/has-flag/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/has-flag/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/he/LICENSE-MIT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/he/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/he/bin/he" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/he/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/he/man/he.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/he/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/inflight/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/inflight/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/inflight/inflight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/inflight/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/inherits/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/inherits/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/inherits/inherits.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/inherits/inherits_browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/inherits/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/minimatch/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/minimatch/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/minimatch/minimatch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/minimatch/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/minimist/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/minimist/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/minimist/example/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/minimist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/minimist/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/minimist/readme.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/minimist/test/dash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/minimist/test/default_bool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/minimist/test/dotted.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/minimist/test/long.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/minimist/test/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/minimist/test/parse_modified.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/minimist/test/short.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/minimist/test/whitespace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/bin/cmd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/bin/usage.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/examples/pow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/readme.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/chmod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/clobber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/mkdirp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/opts_fs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/opts_fs_sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/perm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/perm_sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/race.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/rel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/return.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/return_sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/root.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/umask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/umask_sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/bin/_mocha" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/bin/mocha" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/bin/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/browser-entry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/browser/growl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/browser/progress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/browser/tty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/interfaces/bdd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/interfaces/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/interfaces/exports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/interfaces/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/interfaces/qunit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/interfaces/tdd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/mocha.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/pending.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/base.js.orig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/doc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/dot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/json-stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/json.js.orig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/landing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/markdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/nyan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/progress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/tap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/xunit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/runnable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/runner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/suite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/mocha.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/mocha.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mocha/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ms/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ms/license.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ms/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ms/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/once/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/once/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/once/once.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/once/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/path-is-absolute/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/path-is-absolute/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/path-is-absolute/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/path-is-absolute/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pathval/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pathval/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pathval/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pathval/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pathval/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pathval/pathval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/supports-color/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/supports-color/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/supports-color/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/supports-color/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/supports-color/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/type-detect/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/type-detect/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/type-detect/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/type-detect/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/type-detect/type-detect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/wrappy/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/wrappy/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/wrappy/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/wrappy/wrappy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FizzBazz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HPStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LCD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringCalc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WordWrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.spec.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="TDDKatas" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FizzBazz.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WordWrap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Test.js" />
+        <option value="$PROJECT_DIR$/StringCalc.js" />
+        <option value="$PROJECT_DIR$/HPStore.js" />
+        <option value="$PROJECT_DIR$/LCD.js" />
+        <option value="$PROJECT_DIR$/WordWrap.js" />
+        <option value="$PROJECT_DIR$/test.spec.js" />
+        <option value="$PROJECT_DIR$/src/FizzBazz.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="953" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TDDKatas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TDDKatas" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Mocha.TestTDD.Task 5 Word Wrap">
+    <configuration name="TestTDD.Task 3 HP" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test.spec.js</test-file>
+      <test-names>
+        <name value="TestTDD" />
+        <name value="Task 3 HP" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestTDD.Task 3 HP.Buy 2 different books" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test.spec.js</test-file>
+      <test-names>
+        <name value="TestTDD" />
+        <name value="Task 3 HP" />
+        <name value="Buy 2 different books" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestTDD.Task 5 Word Wrap" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test.spec.js</test-file>
+      <test-names>
+        <name value="TestTDD" />
+        <name value="Task 5 Word Wrap" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.TestTDD.Task 5 Word Wrap" />
+        <item itemvalue="Mocha.TestTDD.Task 3 HP.Buy 2 different books" />
+        <item itemvalue="Mocha.TestTDD.Task 3 HP" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0343e134-ed12-4792-97ff-6e297518917b" name="Default Changelist" comment="" />
+      <created>1572096039688</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572096039688</updated>
+      <workItem from="1572096040852" duration="14997000" />
+      <workItem from="1572165731375" duration="12698000" />
+      <workItem from="1572204759557" duration="2261000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestTDD_Task_3_HP_Buy_2_different_books - 2019.10.26 at 18h 56m 20s.xml">
+      <configuration name="TestTDD.Task 3 HP.Buy 2 different books" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="TestTDD_Task_3_HP_Buy_2_different_books - 2019.10.26 at 18h 56m 21s.xml">
+      <configuration name="TestTDD.Task 3 HP.Buy 2 different books" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="TestTDD_Task_3_HP_Buy_2_different_books - 2019.10.26 at 18h 56m 37s.xml">
+      <configuration name="TestTDD.Task 3 HP.Buy 2 different books" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="TestTDD_Task_3_HP_Buy_2_different_books - 2019.10.26 at 22h 15m 20s.xml">
+      <configuration name="TestTDD.Task 3 HP.Buy 2 different books" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="TestTDD_Task_3_HP_Buy_2_different_books - 2019.10.26 at 22h 15m 27s.xml">
+      <configuration name="TestTDD.Task 3 HP.Buy 2 different books" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="TestTDD_Task_3_HP_Buy_2_different_books - 2019.10.26 at 22h 15m 51s.xml">
+      <configuration name="TestTDD.Task 3 HP.Buy 2 different books" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="TestTDD_Task_3_HP_Buy_2_different_books - 2019.10.26 at 22h 16m 05s.xml">
+      <configuration name="TestTDD.Task 3 HP.Buy 2 different books" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="TestTDD_Task_3_HP_Buy_2_different_books - 2019.10.26 at 22h 16m 21s.xml">
+      <configuration name="TestTDD.Task 3 HP.Buy 2 different books" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="TestTDD_Task_3_HP_Buy_2_different_books - 2019.10.26 at 22h 16m 34s.xml">
+      <configuration name="TestTDD.Task 3 HP.Buy 2 different books" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="TestTDD_Task_5_Word_Wrap - 2019.10.27 at 17h 18m 39s.xml">
+      <configuration name="TestTDD.Task 5 Word Wrap" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="29956000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="953" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32897863" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39904988" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Favorites" order="11" side_tool="true" weight="0.32897863" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" sideWeight="0.49881235" visible="true" weight="0.2490931" />
+      <window_info anchor="right" id="Structure" order="4" sideWeight="0.5011876" side_tool="true" weight="0.2490931" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/StringCalc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HPStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LCD.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordWrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FizzBazz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

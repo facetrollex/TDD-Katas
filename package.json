@@ -1,0 +1,16 @@
+{
+  "name": "clean-code-all-tasks",
+  "version": "1.0.0",
+  "description": "JS Clean Code practice",
+  "scripts": {
+    "test": "mocha \"./**/*.spec.js\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "5.2.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  }
+}
